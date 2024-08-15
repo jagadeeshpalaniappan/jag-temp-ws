@@ -1,0 +1,10 @@
+phidata
+duckduckgo-search
+newspaper4k
+lxml_html_clean
+pgvector
+pypdf 
+sqlalchemy
+psycopg[binary]
+simplejson
+apify-client

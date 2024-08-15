@@ -1,0 +1,48 @@
+#root .stApp {
+  /* margin-left: 300px; */
+}
+
+#root .stApp > header {
+    display: none;
+}
+
+
+@media (min-width: 64em) {
+    .pxh-chromeful .pxh-view--wide\@lg {
+        margin-left: 60px;
+    }
+}
+
+@media (min-width: 48em) {
+    .pxh-chromeful .pxh-view--wide\@md {
+        margin-left: 60px;
+    }
+}
+
+@media (min-width: 64em) {
+    #root .stApp {
+        margin-left: 260px;
+    }
+}
+
+@media (min-width: 48em) {
+    #root .stApp {
+        margin-left: 60px;
+    }
+}
+#root .stApp {
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-name: u;
+    animation-name: u;
+}
+#root .stApp {
+    height: 100%;
+    overflow: auto;
+    background-color: transparent;
+    -webkit-overflow-scrolling: touch;
+}

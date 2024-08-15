@@ -1,0 +1,13 @@
+# Replace this with your domain name.
+*.jagadeeshpalaniapan.com {
+    @chat host chat.jagadeeshpalaniapan.com
+    handle @chat {
+        reverse_proxy open-webui:8080
+    }
+
+    optional. uncomment it if you have other ollama clients
+    @ollama host ollama.jagadeeshpalaniapan.com
+    handle @ollama {
+        reverse_proxy ollama:11434
+    }
+}
